@@ -9,16 +9,23 @@
 html,
 body {
 	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	color: black
 }
 
 button {
 	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	color:brown;
 }
 
 /*  Navigation */
 .navbar-brand > img {
 	max-height: 40px;
 	width: auto;
+	
+}
+.cont{
+	background-color: chocolate;
+	color: white;
 }
 
 .navbar-light .navbar-toggler {
@@ -27,7 +34,7 @@ button {
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: #292b2c;
+	color:blue;
 	font-weight: 600;
 	text-transform: uppercase;
 
@@ -50,7 +57,7 @@ button {
 	font-size: 0.85rem;
 	line-height: 1.3em;
 	background: transparent;
-	color: #292b2c;
+	color:black
 }
 
 .alert:before {
@@ -94,13 +101,37 @@ button {
 /* Article */
 .article {
 	margin-bottom: 2em;
-}
+  }
+  #flex{
+	  display: flex;
+  }
+
 
 .article__title {
 	margin-bottom: 0.5em;
 	font-weight: 700;
+	
+}
+section article:first-of-type {
+	background-color:#719bde;
+	margin-right: 60px;
+
+  }
+  section article:last-of-type {
+	background-color:papayawhip;
+  }
+
+side article{
+	height: 79px;
+
 }
 
+  .img-fluid {
+	float: left;
+	height: 60px;
+	width: 65px;
+	margin: 20px;
+  }
 .article__read-more a {
 	font-size: 0.85em;
 	font-weight: 700;
